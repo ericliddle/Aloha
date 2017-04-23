@@ -165,8 +165,6 @@ html {
   font-size: 16px;
 }
 
-.header container {
-}
 
 .header {
   display: flex;
@@ -195,12 +193,13 @@ html {
 }
 
 .links {
+  justify-content: space-around;
   margin: .5rem auto;
   
 }
 
 .links li {
-  padding: 0 1rem;
+
   text-align: center;
   display: inline-block;
 }
@@ -212,16 +211,12 @@ html {
   
 }
 
-.links a:hover {
-
-}
-
 /*Hero Banner*/
 .main {
   background: 
           linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
-          url("../images/banner-girl.png") center 100px no-repeat,
-          url("../images/flower-bkgd.jpg") center no-repeat; 
+          url("../images/banner-girl.png") center center,
+          url("../images/flower-bkgd.jpg") center repeat-y; 
   width: 100%;
   height: 500px;
   text-align: center;
@@ -236,3 +231,30 @@ html {
   margin: 0 0 1rem 0;
 }
 
+/*FOOTER*/
+
+.footer {
+  background: #242424;
+  color: #ffffff;
+  text-align: center;
+  padding: 15% 0 15% 0;
+}
+
+.footerinfo {
+  padding-bottom: 1rem;
+}
+
+.contact {
+  padding-bottom: 1rem;
+}
+
+.address {
+  padding-bottom: 1rem;
+    color: #969696;
+
+}
+
+.footerlink {
+  text-decoration: underline;
+  color: #FFF
+}
