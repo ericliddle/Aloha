@@ -157,3 +157,82 @@ table {
     font-style: italic;
 
 }
+/*End of Fonts*/
+
+/*Start of css*/
+
+html {
+  font-size: 16px;
+}
+
+.header container {
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 1rem .5rem;
+
+}
+
+.aloha {
+  align-self: flex-start;
+  flex: 0 1 50%;
+}
+
+.cart {
+  text-align: right;
+  flex: 0 1 50%;
+}
+
+.aloha img {
+  max-width: 120px;
+}
+
+.cart img {
+  max-width: 50px;
+}
+
+.links {
+  margin: .5rem auto;
+  
+}
+
+.links li {
+  padding: 0 1rem;
+  text-align: center;
+  display: inline-block;
+}
+
+.links a {
+  color: #e2574c;
+  text-decoration: none;
+  text-transform: uppercase;
+  
+}
+
+.links a:hover {
+
+}
+
+/*Hero Banner*/
+.main {
+  background: 
+          linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
+          url("../images/banner-girl.png") center 100px no-repeat,
+          url("../images/flower-bkgd.jpg") center no-repeat; 
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  color: #FFF;
+}
+
+.hero {
+  padding: 225px 0 225px 0;
+}
+
+.hero h1 {
+  margin: 0 0 1rem 0;
+}
+
