@@ -162,7 +162,7 @@ table {
 /*Start of css*/
 
 html {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 
@@ -215,22 +215,68 @@ html {
 .main {
   background: 
           linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
-          url("../images/banner-girl.png") 50% 200% no-repeat,
+          url("../images/banner-girl.png") center 5rem no-repeat,
           url("../images/flower-bkgd.jpg") center repeat-y; 
-  width: 100%;
-  height: 500px;
-  background-size: cover, 12rem;
+  width: auto;
+  height: 400px;
+  background-size: cover, 10.5rem;
+  position: relative;
   text-align: center;
   color: #FFF;
 }
 
 .hero {
-  padding: 225px 0 225px 0;
+  padding: 150px 0 130px 0;
 }
 
 .hero h1 {
+  font-size: 1.5rem;
   margin: 0 0 1rem 0;
+  text-shadow: 2px 2px 4px rgba(0,0,0,.5);
 }
+
+.hero h2 {
+  font-size: 2.75em;
+  padding: 0 15%;
+  text-shadow: 2px 2px 4px rgba(0,0,0,.5);
+}
+
+/*OCEAN BAR*/
+
+.oceanbar {
+  background: 
+          linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(240,252,251,0.2)),
+          url("../images/wave-bkgd.jpg") center, center;
+  background-position: bottom;
+  height:330px;
+  margin-bottom: 0.5rem;
+
+}
+
+.container {
+  text-align: center;
+  padding: 15% 0;
+}
+
+.oceanbar h2 {
+  font-size: 36px;
+  color: #FFF;
+  text-align: center;
+}
+
+.oceanbar p {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  color: #FFF;
+}
+
+.oceanbar form {
+  text-align: center;
+  color: white;
+}
+
+/*END OCEAN BAR*/
+
 
 /*FOOTER*/
 
@@ -262,7 +308,7 @@ html {
   margin-top: 1rem;
 }
 
-.footerlink {
+.footeremail {
   text-decoration: underline;
   color: #FFF
 }
