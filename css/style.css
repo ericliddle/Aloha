@@ -163,7 +163,7 @@ table {
 
 html {
   font-size: 14px;
-  font-family: 'playfair';
+  font-family: 'ralewaymedium';
 }
 
 
@@ -186,31 +186,38 @@ html {
 }
 
 .aloha img {
-  max-width: 120px;
+  align-content: left;
+  max-width: 130px;
 }
 
 .cart img {
   max-width: 50px;
 }
 
-.links {
+.header-links {
   justify-content: space-around;
   margin: .5rem auto;
   
 }
 
-.links li {
+.header-links li {
 
   text-align: center;
   display: inline-block;
 }
 
-.links a {
+.header-links a {
+  margin: .5rem  .5rem 0 .5rem;
   color: #e2574c;
   text-decoration: none;
   text-transform: uppercase;
-  
 }
+
+.header-links a:hover {
+  color: #b64036;
+}
+
+
 
 /*Hero Banner*/
 .main {
@@ -231,18 +238,24 @@ html {
 }
 
 .hero h1 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin: 0 0 1rem 0;
   text-shadow: 2px 2px 4px rgba(0,0,0,.5);
 }
 
 .hero h2 {
+  font-family: 'playfair';
+  font-weight: lighter;
   font-size: 2.75em;
   padding: 0 15%;
   text-shadow: 2px 2px 4px rgba(0,0,0,.5);
 }
 
 /*HERO END*/
+
+/**/
+
+
 
 /*CATEGORY START*/
 
@@ -299,7 +312,7 @@ html {
 
 }
 
-.container {
+.ocean {
   text-align: center;
   padding: 15% 0;
 }
