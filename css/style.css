@@ -56,12 +56,12 @@ table {
 
 @font-face {
     font-family: 'playfair';
-    src: url('playfairdisplay-bold-webfont.eot');
-    src: url('playfairdisplay-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('playfairdisplay-bold-webfont.woff2') format('woff2'),
-         url('playfairdisplay-bold-webfont.woff') format('woff'),
-         url('playfairdisplay-bold-webfont.ttf') format('truetype'),
-         url('playfairdisplay-bold-webfont.svg#playfair_displaybold') format('svg');
+    src: url('../fonts/playfairdisplay-bold-webfont.eot');
+    src: url('../fonts/playfairdisplay-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/playfairdisplay-bold-webfont.woff2') format('woff2'),
+         url('../fonts/playfairdisplay-bold-webfont.ttf') format('truetype'),
+         url('../fonts/playfairdisplay-bold-webfont.woff') format('woff'),
+         url('../fonts/playfairdisplay-bold-webfont.svg#playfair_displaybold') format('svg');
     font-weight: bold;
     font-style: normal;
 
@@ -69,12 +69,12 @@ table {
 
 @font-face {
     font-family: 'playfair';
-    src: url('playfairdisplay-bolditalic-webfont.eot');
-    src: url('playfairdisplay-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('playfairdisplay-bolditalic-webfont.woff2') format('woff2'),
-         url('playfairdisplay-bolditalic-webfont.woff') format('woff'),
-         url('playfairdisplay-bolditalic-webfont.ttf') format('truetype'),
-         url('playfairdisplay-bolditalic-webfont.svg#playfair_displaybold_italic') format('svg');
+    src: url('../fonts/playfairdisplay-bolditalic-webfont.eot');
+    src: url('../fonts/playfairdisplay-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/playfairdisplay-bolditalic-webfont.woff2') format('woff2'),
+         url('../fonts/playfairdisplay-bolditalic-webfont.woff') format('woff'),
+         url('../fonts/playfairdisplay-bolditalic-webfont.ttf') format('truetype'),
+         url('../fonts/playfairdisplay-bolditalic-webfont.svg#playfair_displaybold_italic') format('svg');
     font-weight: bold;
     font-style: italic;
 
@@ -82,12 +82,12 @@ table {
 
 @font-face {
     font-family: 'playfair';
-    src: url('playfairdisplay-italic-webfont.eot');
-    src: url('playfairdisplay-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('playfairdisplay-italic-webfont.woff2') format('woff2'),
-         url('playfairdisplay-italic-webfont.woff') format('woff'),
-         url('playfairdisplay-italic-webfont.ttf') format('truetype'),
-         url('playfairdisplay-italic-webfont.svg#playfair_displayitalic') format('svg');
+    src: url('../fonts/playfairdisplay-italic-webfont.eot');
+    src: url('../fonts/playfairdisplay-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/playfairdisplay-italic-webfont.woff2') format('woff2'),
+         url('../fonts/playfairdisplay-italic-webfont.woff') format('woff'),
+         url('../fonts/playfairdisplay-italic-webfont.ttf') format('truetype'),
+         url('../fonts/playfairdisplay-italic-webfont.svg#playfair_displayitalic') format('svg');
     font-weight: normal;
     font-style: italic;
 
@@ -95,12 +95,12 @@ table {
 
 @font-face {
     font-family: 'playfair';
-    src: url('playfairdisplay-regular-webfont.eot');
-    src: url('playfairdisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('playfairdisplay-regular-webfont.woff2') format('woff2'),
-         url('playfairdisplay-regular-webfont.woff') format('woff'),
-         url('playfairdisplay-regular-webfont.ttf') format('truetype'),
-         url('playfairdisplay-regular-webfont.svg#playfair_displayregular') format('svg');
+    src: url('../fonts/playfairdisplay-regular-webfont.eot');
+    src: url('../fonts/playfairdisplay-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/playfairdisplay-regular-webfont.woff2') format('woff2'),
+         url('../fonts/playfairdisplay-regular-webfont.woff') format('woff'),
+         url('../fonts/playfairdisplay-regular-webfont.ttf') format('truetype'),
+         url('../fonts/playfairdisplay-regular-webfont.svg#playfair_displayregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -108,12 +108,12 @@ table {
 
 @font-face {
     font-family: 'ralewaylight';
-    src: url('raleway-light-webfont.eot');
-    src: url('raleway-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('raleway-light-webfont.woff2') format('woff2'),
-         url('raleway-light-webfont.woff') format('woff'),
-         url('raleway-light-webfont.ttf') format('truetype'),
-         url('raleway-light-webfont.svg#ralewaylight') format('svg');
+    src: url('../fonts/raleway-light-webfont.eot');
+    src: url('../fonts/raleway-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-light-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-light-webfont.woff') format('woff'),
+         url('../fonts/raleway-light-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-light-webfont.svg#ralewaylight') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -121,12 +121,12 @@ table {
 
 @font-face {
     font-family: 'ralewaylight';
-    src: url('raleway-lightitalic-webfont.eot');
-    src: url('raleway-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('raleway-lightitalic-webfont.woff2') format('woff2'),
-         url('raleway-lightitalic-webfont.woff') format('woff'),
-         url('raleway-lightitalic-webfont.ttf') format('truetype'),
-         url('raleway-lightitalic-webfont.svg#ralewaylight_italic') format('svg');
+    src: url('../fonts/raleway-lightitalic-webfont.eot');
+    src: url('../fonts/raleway-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-lightitalic-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-lightitalic-webfont.woff') format('woff'),
+         url('../fonts/raleway-lightitalic-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-lightitalic-webfont.svg#ralewaylight_italic') format('svg');
     font-weight: normal;
     font-style: italic;
 
@@ -134,12 +134,12 @@ table {
 
 @font-face {
     font-family: 'ralewaymedium';
-    src: url('raleway-medium-webfont.eot');
-    src: url('raleway-medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('raleway-medium-webfont.woff2') format('woff2'),
-         url('raleway-medium-webfont.woff') format('woff'),
-         url('raleway-medium-webfont.ttf') format('truetype'),
-         url('raleway-medium-webfont.svg#ralewaymedium') format('svg');
+    src: url('../fonts/raleway-medium-webfont.eot');
+    src: url('../fonts/raleway-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-medium-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-medium-webfont.woff') format('woff'),
+         url('../fonts/raleway-medium-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-medium-webfont.svg#ralewaymedium') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -147,12 +147,12 @@ table {
 
 @font-face {
     font-family: 'ralewaymedium';
-    src: url('raleway-mediumitalic-webfont.eot');
-    src: url('raleway-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('raleway-mediumitalic-webfont.woff2') format('woff2'),
-         url('raleway-mediumitalic-webfont.woff') format('woff'),
-         url('raleway-mediumitalic-webfont.ttf') format('truetype'),
-         url('raleway-mediumitalic-webfont.svg#ralewaymedium_italic') format('svg');
+    src: url('../fonts/raleway-mediumitalic-webfont.eot');
+    src: url('../fonts/raleway-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/raleway-mediumitalic-webfont.woff2') format('woff2'),
+         url('../fonts/raleway-mediumitalic-webfont.woff') format('woff'),
+         url('../fonts/raleway-mediumitalic-webfont.ttf') format('truetype'),
+         url('../fonts/raleway-mediumitalic-webfont.svg#ralewaymedium_italic') format('svg');
     font-weight: normal;
     font-style: italic;
 
@@ -163,6 +163,7 @@ table {
 
 html {
   font-size: 14px;
+  font-family: 'playfair';
 }
 
 
@@ -240,6 +241,51 @@ html {
   padding: 0 15%;
   text-shadow: 2px 2px 4px rgba(0,0,0,.5);
 }
+
+/*HERO END*/
+
+/*CATEGORY START*/
+
+.carousel {
+  background: #FFF
+}
+
+.carousel-cell {
+  width: 70%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-cell img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  opacity: 0.7;
+  -webkit-transform: scale(0.85);
+  transform: scale(0.85);
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+  -webkit-transition: opacity 0.3s, -webkit-transform 0.3s, transform 0.3s, -webkit-filter 0.3s, filter 0.3s;
+  transition: opacity 0.3s, transform 0.3s, filter 0.3s;
+  }
+
+.carousel-cell.is-selected img {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-filter: none;
+          filter: none;
+}
+
+@media screen and ( min-width: 768px ) {
+  .carousel-cell {
+    height: 400px;
+  }
+}
+
+/*CATEGORY END*/
 
 /*OCEAN BAR*/
 
