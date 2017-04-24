@@ -1,0 +1,7 @@
+-How to save to github
+
+git status
+
+git commit -am "filename"
+
+git push origin master

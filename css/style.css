@@ -171,7 +171,7 @@ html {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 1rem .5rem;
+  margin: 1rem .5rem 0 .5rem;
 
 }
 
@@ -194,26 +194,31 @@ html {
   max-width: 50px;
 }
 
-.header-links {
-  justify-content: space-around;
-  margin: .5rem auto;
+.nav-links {
+  /*justify-content: space-around;*/
   
+  margin: .5rem auto 0 auto;
+  /*border-style: solid;*/
+  border-top: solid #d7d7d7;
+  border-width: 1px;
 }
 
-.header-links li {
-
+.nav-links li {
+  padding: 1rem .5rem;
+  font-size: 1.05rem;
+  vertical-align: middle;
   text-align: center;
   display: inline-block;
 }
 
-.header-links a {
-  margin: .5rem  .5rem 0 .5rem;
+.nav-links a {
+  margin: .5rem  .75rem .5rem .75rem;
   color: #e2574c;
   text-decoration: none;
   text-transform: uppercase;
 }
 
-.header-links a:hover {
+.nav-links a:hover {
   color: #b64036;
 }
 
@@ -253,11 +258,60 @@ html {
 
 /*HERO END*/
 
-/**/
+/*Categories*/
+
+.categories {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#mens {
+  background: url("../images/mens-category.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 50px 150px 50px 150px;
+}
+
+#trends {
+  background: url("../images/trends-category.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 75px;
+  flex-shrink: 0;
+}
+
+#glasses {
+  background: url("../images/glasses-category.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 75px;
+}
+
+#sale {
+  background: url("../images/sale-category.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 75px;
+}
+
+#bags {
+  background: url("../images/bags-category.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 75px;
+}
+
+#womens {
+  background: url("../images/womens-category.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 50px 150px 50px 150px;
+}
 
 
-
-/*CATEGORY START*/
+/*FavoritesStart*/
 
 .carousel {
   background: #FFF
