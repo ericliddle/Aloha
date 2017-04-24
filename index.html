@@ -18,10 +18,10 @@
         </div> 
         <div class="nav-links">
         <ul>
-          <li><a href="templinktoabout">About</a></li>
-          <li><a href="templinktoshop">Shop</a></li>
-          <li><a href="templinktofeatured">Featured</a></li>
-          <li><a href="templinktoupdates">Updates</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#featured">Featured</a></li>
+          <li><a href="#updates">Updates</a></li>
         </ul>
         </div>
     </header>  
@@ -31,19 +31,19 @@
           <h2>Spring/Summer 2016</h2>
       </section>    
     </div>
-        <div class="pagebreakers">
-          <h2><i>Hand-Crafted</i> Styles</h2>
-        </div>
-        <div class="middletext">
-        <p >Aloha Apparel Co. sell only the finest ready-to-wear travel clothing.  Browse our</p> <p>current selection of products of sign-up for updates below.</p>
+      
+        <div class="company-description" id="about">
+          <h2>Hand-Crafted <span class="strong">Styles</span></h2>
+          <p>Aloha Apparel Co. sell only the finest ready-to-wear travel clothing.  Browse our</p> <p>current selection of products of sign-up for updates below.</p>
         </div>   
+      <div id="shop"></div>
         <div class="categories">
-          <div id="mens"><a href="http://www.thislinktomens.com" alt="This link to Mens">men's</a></div>
-          <div id="trends"><a href="http://www.thislinktotrends.com" alt="This link to Trends">trends</a></div>
-          <div id="glasses"><a href="http://www.thislinktoglasses" alt="This link to Glasses">glasses</a></div>
-          <div id="sale"><a href="http://www.thislinktosale.com" alt="This link to Sale">sale</a></div>
-          <div id="bags"><a href="http://www.thislinktobags.com" alt="This link to Bags">bags</a></div>
-          <div id="womens"><a href="http://www.thislinktowomens">women's</a></div>
+          <div class="mens"><a class="category-text" href="#" alt="This link to Mens">men's</a></div>
+          <div class="trends"><a class="category-text" href="#" alt="This link to Trends">trends</a></div>
+          <div class="glasses"><a class="category-text" href="#" alt="This link to Glasses">glasses</a></div>
+          <div class="sale"><a class="category-text" href="#" alt="This link to Sale">sale</a></div>
+          <div class="bags"><a class="category-text" href="#" alt="This link to Bags">bags</a></div>
+          <div class="womens"><a class="category-text" href="#">women's</a></div>
         </div>
     
         <div class="pagebreakers">
@@ -51,7 +51,7 @@
         </div>
 
 <!--CAROUSEL/Flicket-->
-
+      <div id="featured"></div>
         <div class="carousel js-flickity">
           
           <div class="carousel-cell">
@@ -119,12 +119,12 @@
          </div>         
 
       </div> 
-
+      <div id="updates"></div>
         <div class="oceanbar">
           <div class="ocean">
           <h2>Sign-up forUpdates</h2>
           <p>Stay up to date on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog.  Unsubscribe at any time.</p>
-        <form class="email-updates"><input type="email" name="your_email" value="">
+        <form class="email-updates"><input type="email" name="your_email" placeholder="Your Email">
         <input type="submit" value="Submit">
         </form>  
         </div>
@@ -154,11 +154,9 @@
       </div>  
       </div>
     </footer>
-  <script
-  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
-  crossorigin="anonymous"></script>
-  <script scr="lib/flickity/flickity.pkgd.min.js"></script>
-  <script src="mainjs/main.js"></script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="lib/flickity/flickity.pkgd.min.js"></script>
+  <script type="text/javascript" src="mainjs/main.js"></script>
   </body>
 </html>
