@@ -34,25 +34,28 @@
       
         <div class="company-description" id="about">
           <h2>Hand-Crafted <span class="strong">Styles</span></h2>
-          <p>Aloha Apparel Co. sell only the finest ready-to-wear travel clothing.  Browse our</p> <p>current selection of products of sign-up for updates below.</p>
+          <p>Aloha Apparel Co. sell only the finest ready-to-travel clothing.  Browse ourccurrent selection of products of sign-up for updates below.</p>
         </div>   
       <div id="shop"></div>
-        <div class="categories">
-          <div class="mens"><a class="category-text" href="#" alt="This link to Mens">men's</a></div>
-          <div class="trends"><a class="category-text" href="#" alt="This link to Trends">trends</a></div>
-          <div class="glasses"><a class="category-text" href="#" alt="This link to Glasses">glasses</a></div>
-          <div class="sale"><a class="category-text" href="#" alt="This link to Sale">sale</a></div>
-          <div class="bags"><a class="category-text" href="#" alt="This link to Bags">bags</a></div>
-          <div class="womens"><a class="category-text" href="#">women's</a></div>
-        </div>
+      <div class="categories-wrapper">
+        <ul>
+          <li class="rectangle mens"><a class="category-text" href="#" alt="This link to Mens">men's</a></li>
+          <li class="square trends"><a class="category-text" href="#" alt="This link to Trends">trends</a></li>
+          <li class="square glasses square"><a class="category-text" href="#" alt="This link to Glasses">glasses</a></li>
+          <li class="square sale"><a class="category-text" href="#" alt="This link to Sale">sale</a></li>
+          <li class="square bags"><a class="category-text" href="#" alt="This link to Bags">bags</a></li>
+          <li class="rectangle womens"><a class="category-text" href="#">women's</a></li>
+        </ul>
+      </div>
     
-        <div class="pagebreakers">
-          <h2>Most-Loved Products</h2>
+        <div class="most-loved">
+          <h2>Most-Loved <span class="strong">Products</span></h2>
         </div>
 
-<!--CAROUSEL/Flicket-->
+<!--CAROUSEL/Flickity-->
       <div id="featured"></div>
-        <div class="carousel js-flickity">
+        <div class="featured-container">
+        <div class="carousel js-flickity" data-flickity='{ "autoPlay": true }'>
           
           <div class="carousel-cell">
             <img src="images/stretch-knit-dress.jpg" alt="Stretch Knit Dress">
@@ -117,8 +120,10 @@
             <p>$39.00</p>
             <p>Add to Cart</p> 
          </div>         
+        </div> 
+      </div>
 
-      </div> 
+
       <div id="updates"></div>
         <div class="oceanbar">
           <div class="ocean">
@@ -129,17 +134,18 @@
         </form>  
         </div>
       </div>
+    
 
 <!--Footer-->
 
     <footer>
-      <div class="footer container">
-      <div class="footerinfo">
+      <div class="footer-container">
+      <div class="footer-info">
         <p>&copy; 2016 Aloha Apparel Co.</p>
         <p>Powered by HTML and CSS</p>
       </div>  
       <div class="contact">
-        <p class="addy">604-604-6040. <a class="footeremail" href="mailto:info@alohaapparel.com" target="_top">info@alohaapparel.com</a></p>
+        <p>604-604-6040. <a href="mailto:info@alohaapparel.com" target="_top">info@alohaapparel.com</a></p>
       </div>
       <div class="address">
         <p>1490 W. Broadway</p>
