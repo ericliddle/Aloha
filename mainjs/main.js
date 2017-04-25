@@ -38,5 +38,9 @@ $('a[href*="#"]')
     }
   });
 
+$('.carousel-main').flickity({
+  autoPlay: true,
+  contain: true
+});
 
 })(jQuery);

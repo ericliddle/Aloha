@@ -28,7 +28,7 @@
     <div class="main">
       <section class="hero">
           <h1>NEW COLLECTION</h1>
-          <h2>Spring/Summer 2016</h2>
+          <h2>Spring/Summer 2017</h2>
       </section>    
     </div>
       
@@ -37,16 +37,16 @@
           <p>Aloha Apparel Co. sell only the finest ready-to-travel clothing.  Browse ourccurrent selection of products of sign-up for updates below.</p>
         </div>   
       <div id="shop"></div>
-      <div class="categories-wrapper">
-        <ul>
-          <li class="rectangle mens"><a class="category-text" href="#" alt="This link to Mens">men's</a></li>
-          <li class="square trends"><a class="category-text" href="#" alt="This link to Trends">trends</a></li>
-          <li class="square glasses square"><a class="category-text" href="#" alt="This link to Glasses">glasses</a></li>
-          <li class="square sale"><a class="category-text" href="#" alt="This link to Sale">sale</a></li>
-          <li class="square bags"><a class="category-text" href="#" alt="This link to Bags">bags</a></li>
-          <li class="rectangle womens"><a class="category-text" href="#">women's</a></li>
-        </ul>
-      </div>
+      <section class="category-wrapper">
+        <div class="cat">
+          <div class="rectangle mens"><a class="category-text" href="#" alt="This link to Mens">men's</a></div>
+          <div class="square trends"><a class="category-text" href="#" alt="This link to Trends">trends</a></div>
+          <div class="square glasses square"><a class="category-text" href="#" alt="This link to Glasses">glasses</a></div>
+          <div class="square sale"><a class="category-text" href="#" alt="This link to Sale">sale</a></div>
+          <div class="square bags"><a class="category-text" href="#" alt="This link to Bags">bags</a></div>
+          <div class="rectangle womens"><a class="category-text" href="#">women's</a></div>
+        </div>
+      </section>
     
         <div class="most-loved">
           <h2>Most-Loved <span class="strong">Products</span></h2>
@@ -55,14 +55,13 @@
 <!--CAROUSEL/Flickity-->
       <div id="featured"></div>
         <div class="featured-container">
-        <div class="carousel js-flickity" data-flickity='{ "autoPlay": true }'>
+        <div class="carousel-main">
           
           <div class="carousel-cell">
             <img src="images/stretch-knit-dress.jpg" alt="Stretch Knit Dress">
             <p>Dresses</p>
             <h3>Stretch Knit Dress</h3>
             <p>$169.00</p>
-            <p>Add to Cart</p>
           </div>  
           
           <div class="carousel-cell">
@@ -70,7 +69,6 @@
             <p>Shirts</p>
             <h3>Cotton Blue Shirt</h3>
             <p>$89.00</p>
-            <p>Add to Cart</p>
           </div>  
           
           <div class="carousel-cell">
@@ -78,7 +76,6 @@
             <p>Dresses</p>
             <h3>Checked Stretch Dress</h3>
             <p>$129.00</p>
-            <p>Add to Cart</p>
           </div>
 
           <div class="carousel-cell">
@@ -86,39 +83,34 @@
             <p>Bags</p>
             <h3>Blue Hipster Backpack</h3>
             <p>$69.00</p>
-            <p>Add to Cart</p> 
           </div>
 
           <div class="carousel-cell">
-            <img src="images/demin-overall-shorts.jpg" alt="Blue Hipster Backpack">
+            <img src="images/demin-overall-shorts.jpg" alt="Denim Overall Shorts">
             <p>Bags</p>
             <h3>Blue Hipster Backpack</h3>
             <p>$89.00</p>
-            <p>Add to Cart</p> 
          </div>
 
          <div class="carousel-cell">
-            <img src="images/pink-dotted-dress.jpg" alt="Blue Hipster Backpack">
+            <img src="images/pink-dotted-dress.jpg" alt="Pink Dotted Dress">
             <p>Bags</p>
             <h3>Blue Hipster Backpack</h3>
             <p>$99.00</p>
-            <p>Add to Cart</p> 
          </div>
 
           <div class="carousel-cell">
-            <img src="images/blue-silk-dress.jpg" alt="Blue Hipster Backpack">
+            <img src="images/blue-silk-dress.jpg" alt="Blue Slik Dress">
             <p>Bags</p>
             <h3>Blue Hipster Backpack</h3>
             <p>$119.00</p>
-            <p>Add to Cart</p> 
          </div>
 
           <div class="carousel-cell">
-            <img src="images/cotton-yellow-tshirt.jpg" alt="Blue Hipster Backpack">
+            <img src="images/cotton-yellow-tshirt.jpg" alt="Cotton Yellow Tshirt">
             <p>Bags</p>
             <h3>Blue Hipster Backpack</h3>
             <p>$39.00</p>
-            <p>Add to Cart</p> 
          </div>         
         </div> 
       </div>
@@ -127,11 +119,14 @@
       <div id="updates"></div>
         <div class="oceanbar">
           <div class="ocean">
-          <h2>Sign-up forUpdates</h2>
+          <h2>Sign-up for Updates</h2>
           <p>Stay up to date on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog.  Unsubscribe at any time.</p>
-        <form class="email-updates"><input type="email" name="your_email" placeholder="Your Email">
-        <input type="submit" value="Submit">
-        </form>  
+       <div class="text-wrap">
+        <form class="email-updates">
+          <input class="input1" type="email" name="your_email" placeholder="Your Email">
+          <input class="input2" type="submit" value="Subscribe">
+        </form>
+       </div>
         </div>
       </div>
     
