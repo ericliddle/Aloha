@@ -161,11 +161,12 @@ table {
 
 /*Start of css*/
 
+
+
 html {
   font-size: 14px;
   font-family: 'ralewaymedium';
 }
-
 
 .header {
   display: flex;
@@ -198,19 +199,24 @@ html {
   margin: .5rem auto 0 auto;
   border-top: solid #d7d7d7;
   border-width: 1px;
+  width: 100%;
+}
+
+.nav-links ul {
+  display: flex;
+  flex-direction: row;
 }
 
 .nav-links li {
-  padding: 1rem .25rem;
+  padding: 1rem 0;
   font-size: 1.05rem;
-  vertical-align: middle;
+  /*vertical-align: middle;*/
+  justify-content: space-between;
   text-align: center;
-  display: inline-block;
   margin: 0 auto;
 }
 
 .nav-links a {
-  margin: .5rem  .75rem .5rem .75rem;
   color: #e2574c;
   text-decoration: none;
   text-transform: uppercase;
@@ -283,7 +289,6 @@ html {
   text-shadow: 2px 2px 4px rgba(0,0,0,.5);
 }
 
-/*@media screen and ( min-width: 1240px ) {
 
 
 /*HERO END*/
