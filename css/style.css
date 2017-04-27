@@ -159,8 +159,89 @@ table {
 }
 /*End of Fonts*/
 
-/*Start of css*/
+@media screen and (min-width: 600px) {
 
+html {
+  font-size: 16px;
+}
+
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+  /*justify-content: space-between;*/
+  margin: 1rem .5rem 0 .5rem;
+
+}
+
+.aloha {
+  align-self: flex-start;
+  order:1;
+}
+
+.cart {
+  order:3;
+}
+
+.aloha img {
+  max-width: 130px;
+}
+
+.cart img {
+  max-width: 50px;
+}
+
+.nav-links {  
+  border: none;
+  display: flex;
+  order:2
+}
+
+
+.nav-links li {
+  padding: 1rem 0;
+  font-size: 1.05rem;
+  justify-content: space-between;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+
+/*.header {
+  display: flex;
+  flex-wrap:nowrap;
+}
+
+.aloha {
+  order: 1;
+  flex:1;
+}
+.cart {
+  order: 3;
+  flex:1;
+}
+
+.nav-links {
+  order: 2;
+  padding: 0px;
+  flex:1;
+  border-top: none;
+}
+
+.nav-links li {
+  display: inline-block;
+}
+*/
+
+/*
+Social Media
+*/
+
+.socialmedia {
+  flex-direction: column;
+}
+
+}
 
 
 html {
@@ -210,7 +291,6 @@ html {
 .nav-links li {
   padding: 1rem 0;
   font-size: 1.05rem;
-  /*vertical-align: middle;*/
   justify-content: space-between;
   text-align: center;
   margin: 0 auto;
@@ -607,6 +687,10 @@ input[type=submit] {
 .socialmedia {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.socialmedia li {
+  display: inline;
 }
 
 .socialmedia i {
