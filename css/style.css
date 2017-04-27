@@ -159,7 +159,13 @@ table {
 }
 /*End of Fonts*/
 
-@media screen and (min-width: 600px) {
+/*
+
+START OF DESKTOP
+
+*/
+
+@media (min-width: 600px) {
 
 html {
   font-size: 16px;
@@ -243,6 +249,13 @@ Social Media
 
 }
 
+
+/*
+
+
+START OF MOBILE
+
+*/
 
 html {
   font-size: 14px;
@@ -554,37 +567,48 @@ html {
 
 /*OCEAN BAR*/
 
-.oceanbar {
+.update-container {
+
+width: 100%;
+height: auto;
+
+}
+
+.ocean-background {
   background: 
           linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.2)),
           url("../images/wave-bkgd.jpg") center, center;
   background-position: bottom;
-  height:330px;
+  height: 100%;
+  width: auto;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  
 
 }
 
 .ocean {
   text-align: center;
-  padding: 15% 0;
+  padding: 17.5% 0;
 }
 
-.oceanbar h2 {
+.update-container h2 {
   color: #FFF;
   font-family: 'playfair';
   font-size: 2.5rem;
-  /*margin-top: 2.5rem;*/
+  margin-top: 1.5rem;
   margin-bottom: 1.5rem;
   font-style: italic;
   text-shadow: 2px 2px 4px rgba(0,0,0,.5);
 
 }
 
-.oceanbar p {
+.update-container p {
   font-family: 'Raleway-light', sans-serif;
   font-size: 1.15rem;
-  line-height: 2.75rem;
+  line-height: 2.25rem;
   text-align: center;
   font-weight: 300;
   color: #FFF;
@@ -595,7 +619,7 @@ html {
 
 }
 
-.oceanbar form {
+.update-container form {
   text-align: center;
   color: white;
 }
@@ -604,8 +628,7 @@ html {
 
 /*FORM*/
 
-.text-wrap {
-
+.email-form {
   background: #FFF;
   padding: .2rem .01rem .2rem .02rem;
   border-radius: 25px;
