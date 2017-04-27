@@ -1,26 +1,16 @@
-# Aloha Project
+Technologies Used:
 
-This is my Description
+- GIT BASH
+- Google Chrome
+- Google Chrome Developer Tools
+- Fontface
+- Font Aweome (for icons in footer)
 
-## What I learned
 
-So far I've been doing a bunch of stuff.  Still not sure what I've learend.  That's what this long weekend is for.
+---
 
-**Below is for reference only
+Personal Learnings:
 
-# h1
-## h2
-### h3
-#### h4
+It has been a stressful couple of weeks to start the program I'm starting to gain more confidence in my understanding of the different languages we are learning.
 
-Paragraph.
-
-- item 1
-- item 2
-- item 3
-
-1. one
-1. two
-1. three
-
-[Link Text](https://google.ca)
+While I can look at the mobile view and say that I am satisfied with my work to date, I realize there comes a time when I need to ask for help.  Going forward when I run in to a roadblock I will do my best to step out of my comfort zone, and instead of shying away will reach out to my peers and instructors for help.
