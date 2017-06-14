@@ -40,7 +40,8 @@ $('a[href*="#"]')
 
 $('.carousel-main').flickity({
   autoPlay: true,
-  contain: true
+  contain: true,
+  cellAlign: 'left'
 });
 
 })(jQuery);
