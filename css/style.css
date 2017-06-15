@@ -220,7 +220,7 @@ box-sizing: border-box;
 }
 
 .cart img {
-  max-width: 50px;
+  width: 50px;
 }
 
 .nav-links {  
@@ -541,6 +541,7 @@ height: auto;
           url("../images/wave-bkgd.jpg") center, center;
   background-position: bottom;
   height: 100%;
+  background-size: 100%;
   width: auto;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
@@ -820,7 +821,8 @@ header {
 }
 
 .ocean {
-  padding: 35px;
+  height: 380px;
+  width: auto;
 }
 
 .email-form {
@@ -851,6 +853,17 @@ header {
 
 @media all and (min-width: 1240px) {
 
+.cart img {
+  height: 62px;
+  width: 62px;
+}
+
+.aloha img {
+  width: 160px;
+  height: 62px;
+  margin-bottom: 10px;  
+}
+
 .main {
   
   background-size: cover,250px 615px,cover;
@@ -873,7 +886,8 @@ header {
 }
 
 .ocean {
-  padding: 35px;
+  max-height: 380px;
+  padding-top: 50px;
 }
 
 .email-form {
