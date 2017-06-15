@@ -615,7 +615,7 @@ input:focus {
 input[type=email] {
   font-size: 1rem;
   font-weight: 100;
-  width: 150px;
+  width: 225px;
 }
 
 input[type=submit] {
@@ -632,7 +632,7 @@ input[type=submit] {
 
 .footer-container {
   background: #242424;
-  color: #ffffff;
+  color: #FFF;
   font-family: 'playfair';
   font-size: 1rem;
   text-align: center;
@@ -683,6 +683,11 @@ input[type=submit] {
 
 .network-name {
   display: none;
+  font-family: 'raleway', Arial, sans-serif;
+}
+
+.fa {
+  width: 25px;
 }
 
 /*
