@@ -44,4 +44,13 @@ $('.carousel-main').flickity({
   cellAlign: 'left'
 });
 
+$('.email-updates').on('submit', function(event){
+    event.preventDefault();
+    if ( $('#email').val() == '' ) {
+          alert('Please enter a valid e-mail')
+        } else {
+          alert('Thanks for subscribing!');
+        }        
+  });
+
 })(jQuery);
